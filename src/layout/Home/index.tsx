@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
-
+import Hero from "../Hero";
 function HomePage() {
   // const dispatch = useDispatch();
 
@@ -12,7 +12,7 @@ function HomePage() {
   return (
     <div className="bg-white max-w-full max-h-full">
       {" "}
-      {/* <Hero /> */}
+      <Hero />
       {/* <About /> */}
       {/* <Product /> */}
       {/* <Game /> */}

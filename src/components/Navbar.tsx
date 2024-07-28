@@ -32,92 +32,112 @@ const Navbar = () => {
   return (
     <nav
       className={`z-50 flex
-        transition ease-in-out duration-500
-         bg-slate-500 flex-col border-b-2  border-black h-full`}
+      transition ease-in-out duration-500
+      bg-black flex-col border-b-2  border-black h-[99px]`}
     >
-      <div className="justify-between items-center flex p-4">
-        <div className="bg-transparent border-2 border-Brown2 rounded-full">
+      <div className=" flex p-4 justify-centers items-centers">
+        <div className="w-[65px] bg-transparent border-2 border-Brown2 rounded-full">
           <Link href="/">
             <img
-              src="img/Logo.png"
+              src="#"
               className=" w-[65px] h-[65px] border border-black rounded-full"
               alt="Techinovators"
             />
           </Link>
         </div>
-        <div>
-          {/* <button
+        <div className="mx-auto w-[500px] items-center flex p-4">
+          <div>
+            {/* <button
             className="lg:hidden flex items-center px-3 py-2 text-black border-black hover:text-Yellow hover:border-Yellow"
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
-          >
+            >
             {navbarOpen ? (
               <AiOutlineClose size={25} />
-            ) : (
-              <AiOutlineMenu size={25} />
-            )}
-          </button> */}
-          <button
-            className="lg:hidden flex flex-col h-12 w-12  justify-center items-center group"
-            onClick={() => setNavbarOpen(!navbarOpen)}
-          >
-            <div
-              className={`${genericHamburgerLine} ${
-                navbarOpen
-                  ? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100"
-                  : "opacity-50 group-hover:opacity-100"
-              }`}
-            />
-            <div
-              className={`${genericHamburgerLine} ${
-                navbarOpen ? "opacity-0" : "opacity-50 group-hover:opacity-100"
-              }`}
-            />
-            <div
-              className={`${genericHamburgerLine} ${
-                navbarOpen
-                  ? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100"
-                  : "opacity-50 group-hover:opacity-100"
-              }`}
-            />
-          </button>
-          <ul
-            className={`hidden lg:flex items-center justify-between`}
-            data-aos="fade-down"
-          >
-            <li className="mx-2">
-              <a
-                href={"/#about"}
-                className="hover:border-b-2 text-white hover:border-white px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
-              >
-                About
-              </a>
-            </li>
-            <li className="mx-2">
-              <a
-                href="/#product"
-                className="hover:border-b-2 text-white hover:border-white px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
-              >
-                Product
-              </a>
-            </li>
-            <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-black  rounded-full flex justify-center items-center ">
+              ) : (
+                <AiOutlineMenu size={25} />
+                )}
+                </button> */}
+            <button
+              className="lg:hidden flex flex-col h-12 w-12  justify-center items-center group"
+              onClick={() => setNavbarOpen(!navbarOpen)}
+            >
+              <div
+                className={`${genericHamburgerLine} ${
+                  navbarOpen
+                    ? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100"
+                    : "opacity-50 group-hover:opacity-100"
+                }`}
+              />
+              <div
+                className={`${genericHamburgerLine} ${
+                  navbarOpen
+                    ? "opacity-0"
+                    : "opacity-50 group-hover:opacity-100"
+                }`}
+              />
+              <div
+                className={`${genericHamburgerLine} ${
+                  navbarOpen
+                    ? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100"
+                    : "opacity-50 group-hover:opacity-100"
+                }`}
+              />
+            </button>
+            <ul
+              className={`hidden lg:flex items-center justify-between`}
+              data-aos="fade-down"
+            >
+              <li className="mx-2">
+                <a
+                  href={"/#about"}
+                  className="hover:border-b-2 text-white hover:border-white px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
+                >
+                  Home
+                </a>
+              </li>
+              <li className="mx-2">
+                <a
+                  href="/#product"
+                  className="hover:border-b-2 text-white hover:border-white px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
+                >
+                  Gallery
+                </a>
+              </li>
+              <li className="mx-2">
+                <a
+                  href="/#product"
+                  className="hover:border-b-2 text-white hover:border-white px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
+                >
+                  Structure
+                </a>
+              </li>
+              <li className="mx-2">
+                <a
+                  href="/#product"
+                  className="hover:border-b-2 text-white hover:border-white px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
+                >
+                  About
+                </a>
+              </li>
+              <li className="mx-2  ">
+                <Link
+                  href="/Tutorial"
+                  className="hover:border-b-2 text-white hover:border-black font-bold text-base transition ease-in-out duration-500"
+                >
+                  Journey
+                </Link>
+              </li>{" "}
+              {/* <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-black  rounded-full flex justify-center items-center ">
               <Link
-                href="/Tutorial"
-                className="hover:border-b-2 text-black hover:border-black font-bold text-base transition ease-in-out duration-500"
+              href="/Challenge"
+              className="hover:border-b-2 text-black hover:border-black font-bold text-base transition ease-in-out duration-500"
               >
-                Tutorial
+              Challenge
               </Link>
-            </li>{" "}
-            {/* <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-black  rounded-full flex justify-center items-center ">
-              <Link
-                href="/Challenge"
-                className="hover:border-b-2 text-black hover:border-black font-bold text-base transition ease-in-out duration-500"
-              >
-                Challenge
-              </Link>
-            </li> */}
-          </ul>
+              </li> */}
+            </ul>
+          </div>
         </div>
       </div>
 

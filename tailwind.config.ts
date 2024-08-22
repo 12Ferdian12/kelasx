@@ -15,7 +15,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        AbuAbu: "#201c1c",
+        Jeruk: "#FFAD60",
         KuPut: "#EBECA1",
       },
       borderRadius: {

@@ -2,6 +2,7 @@
 
 import React, { useEffect } from "react";
 import Hero from "../Hero";
+import Profile from "../Profile";
 function HomePage() {
   // const dispatch = useDispatch();
 
@@ -13,12 +14,7 @@ function HomePage() {
     <div className="bg-white max-w-full max-h-full">
       {" "}
       <Hero />
-      {/* <About /> */}
-      {/* <Product /> */}
-      {/* <Game /> */}
-      {/* <TutorSection /> */}
-      <p className="h-11 text-cyan-400">Hello ini fercel</p>
-      {/* <SignIn /> */}
+      <Profile />
     </div>
   );
 }

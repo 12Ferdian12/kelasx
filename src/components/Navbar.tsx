@@ -91,7 +91,7 @@ const Navbar = () => {
               <li className="mx-2">
                 <a
                   href={"/#about"}
-                  className="border-2 rounded-2xl px-1 py-1 border-transparent text-Jeruk hover:text-black hover:bg-Jeruk hover:border-Jeruk  font-bold text-base transition ease-in-out duration-500"
+                  className="border-2 rounded-2xl px-1 py-1 border-transparent  text-black bg-Jeruk hover:border-Jeruk  font-bold text-base transition ease-in-out duration-500"
                 >
                   Home
                 </a>
@@ -99,7 +99,7 @@ const Navbar = () => {
               <li className="mx-2">
                 <a
                   href="/#product"
-                  className="border-2 rounded-2xl px-1 py-1 border-transparent text-Jeruk hover:text-black hover:bg-Jeruk hover:border-Jeruk  font-bold text-base transition ease-in-out duration-500"
+                  className="border-2 rounded-2xl px-1 py-1 border-transparent  text-black bg-Jeruk hover:border-Jeruk  font-bold text-base transition ease-in-out duration-500"
                 >
                   Gallery
                 </a>
@@ -107,7 +107,7 @@ const Navbar = () => {
               <li className="mx-2">
                 <a
                   href="/#product"
-                  className="border-2 rounded-2xl px-1 py-1 border-transparent text-Jeruk hover:text-black hover:bg-Jeruk hover:border-Jeruk  font-bold text-base transition ease-in-out duration-500"
+                  className="border-2 rounded-2xl px-1 py-1 border-transparent  text-black bg-Jeruk hover:border-Jeruk  font-bold text-base transition ease-in-out duration-500"
                 >
                   Structure
                 </a>
@@ -115,7 +115,7 @@ const Navbar = () => {
               <li className="mx-2">
                 <a
                   href="/#product"
-                  className="border-2 rounded-2xl px-1 py-1 border-transparent text-Jeruk hover:text-black hover:bg-Jeruk hover:border-Jeruk  font-bold text-base transition ease-in-out duration-500"
+                  className="border-2 rounded-2xl px-1 py-1 border-transparent  text-black bg-Jeruk hover:border-Jeruk  font-bold text-base transition ease-in-out duration-500"
                 >
                   About
                 </a>
@@ -123,7 +123,7 @@ const Navbar = () => {
               <li className="mx-2  ">
                 <Link
                   href="/Tutorial"
-                  className="border-2 rounded-2xl px-1 py-1 border-transparent text-Jeruk hover:text-black hover:bg-Jeruk hover:border-Jeruk  font-bold text-base transition ease-in-out duration-500"
+                  className="border-2 rounded-2xl px-1 py-1 border-transparent  text-black bg-Jeruk hover:border-Jeruk  font-bold text-base transition ease-in-out duration-500"
                 >
                   Journey
                 </Link>

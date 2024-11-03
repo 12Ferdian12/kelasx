@@ -11,10 +11,10 @@ function HomePage() {
   // }, [dispatch]);
 
   return (
-    <div className="bg-white max-w-full max-h-full">
+    <div className="max-w-full max-h-full">
       {" "}
       <Hero />
-      <Profile />
+      {/* <Profile /> */}
     </div>
   );
 }
